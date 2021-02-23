@@ -54,7 +54,7 @@ class App extends React.Component {
             ? "0" + this.state.seconds
             : this.state.seconds}
         </div>
-        <div>{this.state.hours < 12 ? "AM" : "PM"}</div>
+        {/* <div>{this.state.hours < 12 ? "AM" : "PM"}</div> */}
       </span>
     );
   }
